@@ -30,7 +30,7 @@ const (
 
 package publicsuffix
 
-const defaultListVersion = "PSL version {{.VersionSHA}} ({{.VersionDate}})"
+const defaultListVersion = "ModernTLD"
 
 func init() {
 	r := [{{len .Rules}}]Rule{
